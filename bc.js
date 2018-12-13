@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "$";
+var prefix = ".bc";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
@@ -29,4 +29,4 @@ client.user.setStatus("dnd")
 
 
 
-client.login(" توكن البوت ");
+client.login("NTIyNzUwNzM0NjYwNDAzMjAz.DvPhIQ.RwXzXj0hyDBl9ZN4itriKHPpjwc");
